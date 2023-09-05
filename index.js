@@ -193,13 +193,13 @@ function modificar() {
   
     if (name == '') {
       Swal.fire({
-        title: "Completa el campo TITULO",
+        title: "Completa el campo ",
         confirmButtonText: "Aceptar",
         icon: "error",
       });
     } else if (trabajo == '') {
       Swal.fire({
-        title: "Completa el campo DESCRIPCIÓN",
+        title: "Completa el campo ",
         confirmButtonText: "Aceptar",
         icon: "error",
       });
