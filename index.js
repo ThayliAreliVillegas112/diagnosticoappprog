@@ -20,7 +20,7 @@ const getTabla = () => {
                     "<td>"+lista[i].last_name +"</td>"+
                     "<td><button type='button' class='btn btn-info center' onclick='findById(" + lista[i].id + ")' data-bs-toggle='modal' data-bs-target='#detalles'>Detalles</button></td>"+
                     "<td><button type='button' class='btn btn-danger center' onclick='eliminarRegistro(" + lista[i].id + ")'>Eliminar</button></td>"+
-                    "<td><button type='button' class='btn btn-warning center' data-bs-toggle='modal' data-bs-target='#update'>Actualizar</button></td>"
+                    "<td><button type='button' class='btn btn-warning center' onclick='findById(" + lista[i].id + ")' data-bs-toggle='modal' data-bs-target='#update'>Actualizar</button></td>"
                     "</tr>";
             }
         }else{
