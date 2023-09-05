@@ -217,7 +217,7 @@ function modificar() {
           const url = "https://reqres.in/api/users/" +id;
           const data = {id: id, name: name, trabajo: trabajo };
           console.log(data);
-          fetch(resp, {
+          fetch(url, {
             method: "PUT",
             body: JSON.stringify(data),
             headers: {
